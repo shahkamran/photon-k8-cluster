@@ -1,0 +1,16 @@
+# hosts
+[kubernetes_cluster]
+192.168.1.1
+192.168.1.2
+
+[masters]
+192.168.1.1
+
+[minions]
+192.168.1.2
+
+[kubernetes_cluster:vars]
+master_hostname=photon-master
+master_ip=192.168.1.1
+minion_hostname=photon-node
+minion_ip=192.168.1.2
