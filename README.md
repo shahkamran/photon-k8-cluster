@@ -26,9 +26,8 @@ Install Kubernetes Cluster on Photon VMs
 
 # Optional
 * Install and set up PMD
-```tdnf install pmd pmd-cli
-systemctl start pmd.service
-```
+```tdnf install pmd pmd-cli```
+```systemctl start pmd.service```
 
 # Define Inventory for the playbook scope
 * Update Inventory with Photon VM details in ```hosts``` file, as as example.
